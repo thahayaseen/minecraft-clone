@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: minecraft1;
-    src: url(FONT/minecraftTen-VGORe.ttf);
+    src: url(FONT/MinecraftTen-VGORe.ttf);
     
 }
 @font-face {
@@ -79,7 +79,7 @@ header{
     height: 100%;
 }
   .sec1 h2{
-    font-family: minecraft1;
+    font-family:minecraft1;
     width: 100%;
   }
 .sec1 img{
