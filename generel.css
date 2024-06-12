@@ -121,6 +121,7 @@ width: 250px;
 .sec2-first-img img{ 
     width:100%;
     height: 100%;
+    transform: scaleX(1.15);
    
     
 }
@@ -128,6 +129,8 @@ width: 250px;
     display: grid;
     grid-template-columns: 2.5fr 1fr;
     margin-bottom: 30px;
+    overflow: hidden;
+    
     
     
 
@@ -160,17 +163,31 @@ width: 250px;
 .sec2{
     gap: 200px;
 }
+.ximag{
+    overflow: hidden;
+}
+.sec2-texts a{
+    color: #6cc349
+    ;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+
+}
 .sec2-texts {
     
     background-color: #262423;
     width: 11.9vw;
     height: 100%;
     display: flex;
-    padding-left: 15px;
+    padding: 15px 20px;
     align-items: start;
     justify-content: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 0px;
+    border-top:solid #3d3938
+    ;
     
     
 }
